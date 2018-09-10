@@ -13,11 +13,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { FirstPageComponent } from './first-page/first-page.component';
 import { SecondPageComponent } from './second-page/second-page.component';
 import { ThirdPageComponent } from './third-page/third-page.component';
+import { CopilotComponent } from './copilot/copilot.component';
+import { MatGridTileTestComponent } from './mat-grid-tile-test/mat-grid-tile-test.component';
 
 const appRoutes: Routes = [
   { path: 'first-page', component: FirstPageComponent },
   { path: 'second-page', component: SecondPageComponent },
-  { path: 'third-page', component: ThirdPageComponent }
+  { path: 'third-page', component: ThirdPageComponent },
+  { path: 'copilot', component: CopilotComponent}
 ]
 
 @NgModule({
@@ -28,7 +31,9 @@ const appRoutes: Routes = [
     TableComponent,
     FirstPageComponent,
     SecondPageComponent,
-    ThirdPageComponent
+    ThirdPageComponent,
+    CopilotComponent,
+    MatGridTileTestComponent,
   ],
   imports: [
     BrowserModule,

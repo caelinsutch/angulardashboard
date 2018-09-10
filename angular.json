@@ -31,7 +31,11 @@
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "./node_modules/@shopify/draggable/lib/draggable.js",
+              "./node_modules/@shopify/draggable/lib/droppable.js",
+              "./node_modules/@shopify/draggable/lib/sortable.js",
+              "./node_modules/@shopify/draggable/lib/swappable.js"
             ]
           },
           "configurations": {
