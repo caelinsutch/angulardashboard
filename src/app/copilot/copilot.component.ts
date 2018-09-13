@@ -7,7 +7,4 @@ import { Component } from '@angular/core';
 })
 export class CopilotComponent {
 
-  /** Based on the screen size, switch from standard to one column per row */
-
-
 }
